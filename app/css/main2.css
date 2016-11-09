@@ -620,13 +620,16 @@ dl.row > dd + dt {
   font-size: 90%;
   color: #818a91; }
 
-.block, .znak-clas {
-  text-align: center;
-  padding: 20px 50px 20px 50px; }
+.image-page-outer {
+  display: inline-block; }
 
-.block-1 > img {
-  width: 100%;
-  height: auto; }
+.section-img {
+  float: left;
+  padding: 25px 0px 25px 40px; }
+
+.thumbnail {
+  padding-bottom: 20px;
+  text-align: center; }
 
 code,
 kbd,
@@ -5122,7 +5125,7 @@ a.text-danger:focus, a.text-danger:hover {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
-  color: #a2a2a2; }
+  color: #818181; }
 
 .h5-What {
   font-family: "HelveticaBold", sans-serif;
@@ -5133,7 +5136,7 @@ a.text-danger:focus, a.text-danger:hover {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
-  color: #a2a2a2; }
+  color: #818181; }
 
 .h5-Our {
   font-family: "HelveticaBold", sans-serif;
@@ -5144,7 +5147,7 @@ a.text-danger:focus, a.text-danger:hover {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
-  color: #a2a2a2; }
+  color: #818181; }
 
 .h6-Ipad-1 {
   font-family: "HelveticaBold", sans-serif;
@@ -5206,6 +5209,19 @@ a.text-danger:focus, a.text-danger:hover {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   border: 2px solid #dedede; }
+
+number {
+  color: #a89574; }
+
+.h5-img-circle {
+  color: #767676;
+  text-align: center; }
+
+.p-img {
+  width: 210px;
+  font-size: 14px;
+  text-align: center;
+  color: #818181; }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome

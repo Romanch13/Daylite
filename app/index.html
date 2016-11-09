@@ -10,10 +10,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="img/favicon/Daylite-icon.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/Daylite-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/Daylite icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/Daylitei-icon-114x114.png">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
 	
 
@@ -35,6 +35,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
 
 <script type="text/javascript">
+	
 	$(document).ready(function(){
 		var touch = $('#touch-menu');
 		var menu = $('.nav');
@@ -46,7 +47,12 @@
 		$(window).resize(function(){
 			var wid = $(window).width();
 			if(wid > 760 && menu.is(':hidden')){
-				menu.removeAttr('main2');
+				menu.removeAttr('style');
+			$(window).resize(function(){ 
+		if($(window).width() > 760){ 
+			$('menu').removeAttr('style'); 
+} 
+})
 			}
 		});
 	});
@@ -88,15 +94,17 @@
 		<div class="block-1">
 		<h1 class="h1-Purus-jumb-1">
 			Purus Venenatis Ligula Mattis
-			<br>Sem Bibendum Elit</h1>
-
+			<br>Sem Bibendum Elit </h1></div>
+			<div class="img">
+				<img src="img/ipad.png" alt="ipad" class=" ipad img-fluid pull-right"/>
+			</div>
 		<p class="p-jumbortron">
 			Aenean lacinia bibendum nulla sed consectetur, tristique magna curabitur
 			<br>blandit tempus porttitor ultricies vehicula</p>
 		<p class="lead">
 			<a class="btn btn-jumbortron" href="#" role="button">Purchase Now</a>
 		</p> 
-		<img src="img/ipad.png" alt="ipad" class="ipad img-responsive pull-right "/>
+		
 </div>
 	</div>
 </div>
@@ -123,26 +131,91 @@
 	</p>
 </div>
 <div class="container">
-<div class="parent">
-        <div class="block">
-            <img src="img/znak-1.png" alt="znak" class="znak-clas"/>
-            <img src="img/znak-2.png" alt="znak" class="znak-clas"/>
-            <img src="img/znak-3.png" alt="znak" class="znak-clas"/>
-            <img src="img/znak-4.png" alt="znak" class="znak-clas"/>
-            <img src="img/znak-5.png" alt="znak" class="znak-clas"/>
-        
-    </div>
-</div>
-<!--<div class="row">
-	<div class="col-sm-2"><img src="img/znak-1.png" alt="znak" class="znak"></div>
-	<div class="col-sm-2"><img src="img/znak-1.png" alt="znak" class="znak"></div>
-	<div class="col-sm-2"><img src="img/znak-1.png" alt="znak" class="znak"></div>
-	<div class="col-sm-2"><img src="img/znak-1.png" alt="znak" class="znak"></div>
-	<div class="col-sm-2"><img src="img/znak-1.png" alt="znak" class="znak"></div>
-</div>-->
-</div>
+	<div class="section-img">
+		<div class="image-page-outer">
+			<div class="section">
+				<div class="thumbnail">
+					<img width="90" height="90" src="img/znak-1.png" alt="znak" class="znak-clas"/>
+					<!--<img src="img/strelka.png" alt="strelka" class="strelka" />-->
+				</div>
+				<div class="name">
+					<h5 class="h5-img-circle">
 
+						<number>1.</number>
+						Concepting
+					</h5>
+					<p class="p-img">Vestibulum id ligula porta felis euismod semper porta.</p>
+				</div>
+			</div>
+		</div>
+		<div class="image-page-outer">
+			<div class="section">
+				<div class="thumbnail">
+					<img width="90" height="90" src="img/znak-2.png" alt="znak" class=" znak-clas"/>
+				<!--<img src="img/strelka.png" alt="strelka" class="strelka" />-->
+				</div>
+				<div class="name">
+					<h5 class="h5-img-circle">
 
+						<number>2.</number>
+						Praparing
+					</h5>
+					<p class="p-img">
+						Aenean eu leo quam ornare sem lacinia qu venenatis vestibulum.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="image-page-outer">
+			<div class="section">
+				<div class="thumbnail">
+					<img width="90" height="90" src="img/znak-3.png" alt="znak" class=" znak-clas"/>
+				<!--<img src="img/strelka.png" alt="strelka" class="strelka" />-->
+				</div>
+				<div class="name">
+					<h5 class="h5-img-circle">
+
+						<number>3.</number>
+						Retouching
+					</h5>
+					<p class="p-img">Praesent magnale scelerisque nisl consectetur e nulla vitae.</p>
+				</div>
+			</div>
+		</div>
+		<div class="image-page-outer">
+			<div class="section">
+				<div class="thumbnail">
+					<img width="90" height="90" src="img/znak-4.png" alt="znak" class=" znak-clas"/>
+				<!--<img src="img/strelka.png" alt="strelka" class="strelka" />-->
+				</div>
+				<div class="name">
+					<h5 class="h5-img-circle">
+
+						<number>4.</number>
+						Finalizing
+					</h5>
+					<p class="p-img">Maecenas diam eget risus varius blandit sit amet non</p>
+				</div>
+			</div>
+		</div>
+		<div class="image-page-outer">
+			<div class="section">
+				<div class="thumbnail">
+					<img width="90" height="90" src="img/znak-5.png" alt="znak" class=" znak-clas"/>
+					
+				</div>
+				<div class="name">
+					<h5 class="h5-img-circle">
+
+						<number>5.</number>
+						Packaging
+					</h5>
+					<p class="p-img">Morbi leo risus, porta ac consectetur ac, vestibulum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class="container">
 	<h5 class="h5-Our">Our Latest Stuff</h5>
