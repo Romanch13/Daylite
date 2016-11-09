@@ -5116,34 +5116,34 @@ a.text-danger:focus, a.text-danger:hover {
   margin-left: 0;
   padding: 50px 0 50px 0px; }
 
-.h5-Nulla {
+.h4-Nulla {
   font-family: "HelveticaBold", sans-serif;
   font-weight: bold;
   color: #767676; }
 
-.p-h5-Nulla {
+.p-h4-Nulla {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
   color: #818181; }
 
-.h5-What {
+.h4-What {
   font-family: "HelveticaBold", sans-serif;
   font-weight: bold;
   color: #767676; }
 
-.p-h5-What {
+.p-h4-What {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
   color: #818181; }
 
-.h5-Our {
+.h4-Our {
   font-family: "HelveticaBold", sans-serif;
   font-weight: bold;
   color: #767676; }
 
-.p-h5-Our {
+.p-h4-Our {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
   font-size: 15px;
@@ -5214,14 +5214,68 @@ number {
   color: #a89574; }
 
 .h5-img-circle {
+  font-family: "HelveticaBold", sans-serif;
+  font-weight: bold;
   color: #767676;
   text-align: center; }
 
 .p-img {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
   width: 210px;
   font-size: 14px;
   text-align: center;
   color: #818181; }
+
+.h4-Recent {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold; }
+
+.h4-A-little {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold; }
+
+.h6-aenean {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold; }
+
+.h6-Commodo {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold; }
+
+.p-23jan-photograph {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #a89574; }
+
+.p-21jun-photograph {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #a89574; }
+
+.Resent_continue {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #a89574; }
+
+.p-23jan {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #818181; }
+
+.p-21jun {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #818181; }
+
+.p-h4-little {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #818181;
+  width: 550px; }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
