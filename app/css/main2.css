@@ -633,7 +633,7 @@ dl.row > dd + dt {
 
 .img-21jan {
   position: relative;
-  bottom: 20px; }
+  bottom: 35px; }
 
 .komu1 {
   text-align: center; }
@@ -5181,7 +5181,7 @@ a.text-danger:focus, a.text-danger:hover {
 .p-h4-Nulla {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
   color: #818181; }
 
 .h4-What {
@@ -5192,7 +5192,7 @@ a.text-danger:focus, a.text-danger:hover {
 .p-h4-What {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
   color: #818181; }
 
 .h4-Our {
@@ -5203,7 +5203,7 @@ a.text-danger:focus, a.text-danger:hover {
 .p-h4-Our {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
   color: #818181; }
 
 .h6-Ipad-1 {
@@ -5297,7 +5297,7 @@ number {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
   font-weight: bold;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
   bottom: 60px; }
 
@@ -5305,15 +5305,15 @@ number {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
   font-weight: bold;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
-  bottom: 80px; }
+  bottom: 94px; }
 
 .p-23jan-photograph {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 12px;
   color: #a89574;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
   bottom: 60px; }
 
@@ -5321,15 +5321,15 @@ number {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 12px;
   color: #a89574;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
-  bottom: 80px; }
+  bottom: 94px; }
 
 .Resent_continue {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 12px;
   color: #a89574;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
   bottom: 60px; }
 
@@ -5337,15 +5337,15 @@ number {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 12px;
   color: #a89574;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
-  bottom: 80px; }
+  bottom: 94px; }
 
 .p-23jan {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 14px;
   color: #818181;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
   bottom: 60px; }
 
@@ -5353,9 +5353,9 @@ number {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 14px;
   color: #818181;
-  padding-left: 65px;
+  padding-left: 75px;
   position: relative;
-  bottom: 80px; }
+  bottom: 94px; }
 
 .p-h4-little {
   font-family: "HelveticaLight", Helvetica, sans-serif;
@@ -5366,7 +5366,8 @@ number {
 .shape {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 14px;
-  color: #818181; }
+  color: #818181;
+  padding-top: 10px; }
 
 .komu1 {
   font-family: "HelveticaLight", HelveticaNeue, sans-serif;
