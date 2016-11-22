@@ -46,13 +46,9 @@
 		});
 		$(window).resize(function(){
 			var wid = $(window).width();
-			if(wid > 760 && menu.is(':hidden')){
+			if($(window).width() > 768 && menu.is(':hidden')){
 				menu.removeAttr('style');
-			$(window).resize(function(){ 
-		if($(window).width() > 760){ 
-			$('menu').removeAttr('style'); 
-} 
-})
+
 			}
 		});
 	});
@@ -62,12 +58,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="logo">
+			
 				<a href="#">
 					<img src="img/Daylite.png" alt="logo" ></a>
 			</div>
 			<a href="#" id="touch-menu" class="menu">&#9776;</a>
 			<nav>
+			
 				<ul class="nav clearfix ">
+				<div class="col-xs-12">
 					<li>
 						<a href="#">Home</a>
 					</li>
@@ -83,6 +82,7 @@
 					<li>
 						<a href="#">Contact</a>
 					</li>
+					</div>
 				</ul>
 			</nav>
 		</div>
@@ -90,22 +90,22 @@
 </header>
 <div class="jumbotron m-b-0">
 	<div class="container">
-		<div class="block-1">
-			<h1 class="h1-Purus-jumb-1">
+		<div class="block-1 col-lg-6">
+			<h1 class="h1-Purus-jumb-1 ">
 				Purus Venenatis Ligula Mattis
 				<br>Sem Bibendum Elit</h1>
-		</div>
-		<div class="img">
-			<img src="img/ipad.png" alt="ipad" class=" ipad img-fluid pull-right"/>
-		</div>
 		<p class="p-jumbortron">
 			Aenean lacinia bibendum nulla sed consectetur, tristique magna curabitur
 			<br>blandit tempus porttitor ultricies vehicula</p>
 		<p class="lead">
-			<a class="btn btn-jumbortron" href="#" role="button">Purchase Now</a>
+			<button type="button" class="btn btn-jumbortron" href="#" role="button">Purchase Now</button> 
 		</p>
+		</div>
+		<div class="img col-lg-6 text-md-center">
+			<img src="img/ipad.png" alt="ipad" class=" m-x-auto ipad img-fluid pull-xl-right"/>
+		</div>
+		
 	</div>
-</div>
 </div>
 <div class="jumbotron jumborton-grey">
 <div class="container">
@@ -116,18 +116,20 @@
 		Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
 	</p>
 	<p class="lead">
-		<a class="btn btn-purchapse" href="#" role="button">Purchase Now</a>
-		<a class="btn btn-see-pricing" href="#" role="button">See pricing</a>
+		<button type="button" class="btn btn-purchapse" href="#" role="button">Purchase Now</button> 
+		<button type="button" class="btn btn-see-pricing" href="#" role="button">Purchase Now</button> 
 	</p>
 </div>
 </div>
 <div class="container">
+
 <h4 class="h4-What">What is Our Process</h4>
 <p class="p-h4-What">
 	Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna
 	<br>
 	mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur posuere.
 </p>
+</div>
 </div>
 <div class="container">
 <div class="section-img">
@@ -233,30 +235,30 @@
 <div class="row">
 	<div class="box">
 		<div class="col-sm-3">
-			<div class="card">
-				<img class="img-fluid card-img-1" src="img/icon-1.png" alt="photo">
+			<div class="card m-x-auto">
+				<img class="m-x-auto img-fluid card-img-1" src="img/icon-1.png" alt="photo">
 				<h6 class="h6-Ipad-1">Porta Justo Ullamcorper</h6>
 				<p class="p-h6-Ipad-1">Grapic Design, Illustration</p>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-3">
-		<div class="card">
-			<img class="img-fluid card-img-2" src="img/icon-2.png" alt="photo">
+		<div class="card m-x-auto">
+			<img class="m-x-auto img-fluid card-img-2" src="img/icon-2.png" alt="photo">
 			<h6 class="h6-Ipad-2">Vestibulum Aenean Sem</h6>
 			<p class="p-h6-Ipad-2">Motion Graphic</p>
 		</div>
 	</div>
 	<div class="col-sm-3">
-		<div class="card">
-			<img class="img-fluid card-img-3" src="img/icon-3.png" alt="photo">
+		<div class="card m-x-auto">
+			<img class="m-x-auto img-fluid card-img-3" src="img/icon-3.png" alt="photo">
 			<h6 class="h6-Ipad-3">Ridiculus Sollicitudin Tortor</h6>
 			<p class="p-h6-Ipad-3">Retouch, Photography</p>
 		</div>
 	</div>
 	<div class="col-sm-3">
-		<div class="card">
-			<img  src="img/icon-4.png" class="img-fluid card-img-4" alt="photo">
+		<div class="card m-x-auto">
+			<img  src="img/icon-4.png" class="m-x-auto img-fluid card-img-4" alt="photo">
 			<h6 class="h6-Ipad-4">Consectetur Tortor Ligula</h6>
 			<p class="p-h6-Ipad-4">Web Design, Responsive</p>
 		</div>
@@ -266,7 +268,7 @@
 <br><br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 col-sm-6 col-lg-6">
+		<div class=" col-md-6 col-sm-6 col-lg-6">
 			<h4 class="h4-Recent">Recent Posts</h4>
 			<br>
 			<img width="60" height="60" src="img/23jun.png" class="img-23jun"/>
@@ -331,54 +333,82 @@
 </div>
 </div>
 <br>
-<br>
 <div class="jumbotron jumbotron-bottom1 m-b-0 ">
+	<div class="container">
+		<div class="col-lg-6 col-xl-3 " >
+			<h6 class="Get">Get In Touch</h6>
+			<p class="get-p">
+				Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna.
+				<br>
+				<br></p>
+			<p class="gps-phone-sms">
+				<img src="img/gps.png" alt="gps" class="gps-img">
+				Moonshine Street No: 14/05
+				<br>
+				Light City, Jupiter
+				<br>
+				<img src="img/phone.png" alt="phone" class="phone-img">
+				0247 541 65 87
+				<br>
+				<img src="img/sms.png" alt="sms" class="sms-img">support@longwave.com</p>
+		</div>
+		<div class="col-lg-6 col-xl-3">
+			<h6 class="twitter-jumb">Twitter</h6>
+			<p class="twitter-p">
+				<img src="img/twitter1.png" alt="gps" class="twitter-img">
+				Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.
+				<br>
+				<br>
+				<img src="img/twitter1.png" alt="gps" class="twitter-img1">
+				Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.
+				<br>
+				<br>
+				<img src="img/twitter1.png" alt="gps" class="twitter-img2">
+				Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.
+			</p>
+		</div>
+		<div class="col-lg-6 col-xl-3 ">
+			<h6 class="popular-posts">Popular Posts</h6>
+			<p class="popular-p">
+				Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
+			</p>
+			<p class="p-date">14 Nov, 2012</p>
+			<p class="popular-p1">Scelerisque nisl consectetur et.</p>
+			<p class="p-date">22 May, 2012</p>
+			<p class="popular-p2">
+				Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce.
+			</p>
+			<p class="p-date">15 July, 2012</p>
+		</div>
+		<div class="col-lg-6 col-xl-3">
+			<h6 class="Contact">Contact Form</h6>
+			<p class="contact-p">
+				<form class="row" action="">
+					<div class="col-xs-12">
+						<div class="form-group row">
+							<label for="example-text-input"  class="col-form-label"></label>
+							<div class="col-xs-10">
+								<input class="form-control" type="text" placeholder="Введіть Ім'я" id="example-text-input"></div>
+						</div>
+						<div class="form-group row">
+							<label for="exampleInputEmail1"  class="col-form-label"></label>
+							<div class="col-xs-10">
+								<input class="form-control" type="email" placeholder="Введіть E-mail" id="example-email-input" aria-describedby="emailHelp"></div>
+						</div>
+							<div class="form-group row" class="col-form-label">
+								<div class="col-xs-10">
+								<textarea class="form-control" type="textarea" id="exampleTextarea" rows="3"></textarea>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<div class="jumbotron jumbotron-bottom2 m-b-0 p-t-1 p-b-1 ">
 <div class="container">
-	<div class="col-md-3 col-sm-3 col-lg-3">
-		<h6 class="Get">Get In Touch</h6>
-		<p class="get-p">
-			Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. <br><br>	</p>
-		<p class="gps-phone-sms">
-		<img src="img/gps.png" alt="gps" class="gps-img">Moonshine Street No: 14/05 <br> Light City, Jupiter
-		<br>
-		<img src="img/phone.png" alt="phone" class="phone-img"> 0247 541 65 87
-		<br>
-		<img src="img/sms.png" alt="sms" class="sms-img"> support@longwave.com 
-		</p>
-	</div>
-	<div class="col-md-3 col-sm-3 col-lg-3">
-		<h6 class="twitter-jumb">Twitter</h6>
-		<p class="twitter-p">
-		<img src="img/twitter1.png" alt="gps" class="twitter-img">Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.
-		<br><br>
-		<img src="img/twitter1.png" alt="gps" class="twitter-img1">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.
-		<br><br>
-		<img src="img/twitter1.png" alt="gps" class="twitter-img2">Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.
-		</p>
-	</div>
-	<div class="col-md-3 col-sm-3 col-lg-3">
-		<h6 class="popular-posts">Popular Posts</h6>
-		<p class="popular-p">
-			Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.</p>
-		<p class="p-date">14 Nov, 2012 </p>
-	     <p class="popular-p1">Scelerisque nisl consectetur et.</p>	
-	     <p class="p-date">22 May, 2012 </p>
-	     <p class="popular-p2">Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce.</p>	
-	     <p class="p-date">15 July, 2012 </p>
-	</div>
-	<div class="col-md-3 col-sm-3 col-lg-3">
-		<h6 class="Contact">Contact Form</h6>
-		<p class="contact-p">
-			<p class="lead">
-			<a class="btn btn-sumbit" href="#" role="button">Sumbit</a>
-		</p>
-		</p>
-	</div>
-</div>
-</div>
-<div class="jumbotron jumbotron-bottom2 m-b-0  ">
-<div class="container">
-	<p class="daylite">@ 2013 Daylite. All Rights Reserved.</p>
+	<p class="daylite m-b-0">@ 2013 Daylite. All Rights Reserved.</p>
 </div>
 </div>
 
