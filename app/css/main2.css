@@ -2319,7 +2319,8 @@ input[type="button"].btn-block {
   padding: 6px 28px 6px 28px;
   border: 2px solid;
   -webkit-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  margin-top: 10px; }
 
 .btn-sumbit:hover {
   font-weight: bold;
@@ -3486,6 +3487,9 @@ header {
       display: inline-block;
       width: 100%; } }
 
+.card {
+  position: flex; }
+
 .breadcrumb {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
@@ -4047,7 +4051,9 @@ base::-moz-progress-bar,
   .komu1 {
     font-size: 14px; }
   .h1-Purus-jumb-1, .h4-Nulla, .h4-What, .h4-Our, .p-jumbortron {
-    text-align: center; } }
+    text-align: center; }
+  .p-h4-What {
+    font-size: 14px !important; } }
 
 @media only screen and (max-width: 560px) {
   .btn-see-pricing {
@@ -5296,7 +5302,7 @@ a.text-danger:focus, a.text-danger:hover {
 .p-h4-What {
   font-family: "HelveticaLight",  sans-serif;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #818181; }
 
 .h4-Our {
